@@ -15,6 +15,7 @@ namespace BMI計算機
         public frmBMI()
         {
             InitializeComponent();
+            this.AcceptButton = this.btnRun;
         }
 
         private void btnRun_Click(object sender, EventArgs e)
